@@ -1,0 +1,303 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+h2{
+    color: #E9ECE9;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+
+body{
+    color: #e9ece9ed;
+}
+
+header {
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 60px;
+    padding-bottom: 15px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #dedede;
+}
+
+a:visited {
+    color: #dedede;
+}
+
+a:hover {
+    color: #EE6622;
+}
+
+/* a:active {
+    color: rgb(221, 221, 221);
+} */
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: end;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+.search-container {
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    fill: #EE6622;
+}
+
+.search-input {
+    width: 100%;
+    height: 40px;
+    padding-left: 40px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 0;
+    color: black;
+}
+
+#brand-img {
+    flex-shrink: 0;
+    height: 60px;
+}
+
+#user-icon,
+#shopping-cart-icon {
+    width: 20px;
+    height: 20px;
+    fill: white;
+    cursor: pointer;
+}
+
+#shopping-cart-icon{
+    border: 3px solid #fff;
+    padding: 8px;
+}
+
+.toiminnot {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.toiminnot a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.toiminnot a:hover {
+    color: orangered;
+}
+
+.nettisivunakyma {
+    background-color: rgb(49, 49, 49);
+    border-top: 2px solid #fff;
+}
+
+.yritysmyynti-blokki {
+    padding-top: 20px;
+}
+
+svg {
+    height: 20px;
+    fill: orangered;
+}
+
+.blokki-wrapper1{
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.blokki-wrapper2{
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+
+.block-one {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blokki{
+    flex: 1;
+}
+
+/* EKA BLOKKI */
+
+.asiakaspalvelu-ajat {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.asiakaspalvelu-text{
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.yhteystiedot-1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.yhteystiedot-1 p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* TOINEN BLOKKI */
+
+.myymala-ajat{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.myymala-blokki-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px 0;
+}
+
+.teksti{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    inline-size: 200px;
+}
+
+.logo-ja-text{
+    display: flex;
+    gap: 10px;
+}
+
+.yhteisot-blokki svg{
+    fill: #fff;
+    height: 34px;
+    width: 34px;
+}
+
+.logot{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.tilaa-blokki{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tilaa-blokki-text{
+    padding-bottom: 20px;
+}
+
+#tilaus-btn{
+    background-color: #EE6622;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#tilaus-btn:hover {
+    color: #dbdada;
+}
+
+
+.info-tiedot {
+    padding: 15px 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.info-tiedot a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.kaikki-linkit{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px 0;
+    inline-size: 250px;
+
+}
+
+.linkit-toka{
+    inline-size: 190px;
+}
+
+.article-links{
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sertifikaatti-img{
+    padding: 15px 0;
+    display: flex;
+}
+
+.alapalkki{
+    background-color: rgb(30, 30, 30);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alapalkki-teksti{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
