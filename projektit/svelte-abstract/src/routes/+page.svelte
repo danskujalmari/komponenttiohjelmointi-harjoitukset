@@ -11,19 +11,24 @@
 </div>
 
 <style>
-  @media (max-width: 375px) {
+  @media (max-width: 390px) {
+    .sisalto {
+      width: 100%;
+      max-width: 100%;
+    }
   }
 
   @media (max-width: 768px) {
     .sisalto {
-      width: 140vw;
-      max-width: 131.5vw;
+      width: 100%;
+      max-width: 100%;
     }
   }
 
   @media (max-width: 1200px) {
     .sisalto {
-      min-width: 30vw;
+      width: 100%;
+      max-width: 100%;
     }
   }
 </style>
